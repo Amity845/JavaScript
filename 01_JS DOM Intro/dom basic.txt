@@ -1,0 +1,17 @@
+<nav>
+
+CSS -> nav{}
+JS -> document.querySelector('nav');
+Jquery -> $('nav');
+
+
+<nav id='test'>
+CSS -> #test{}
+JS -> document.querySelector('#test');
+Jquery -> $('#test');
+
+<nav class='container'>
+
+CSS -> .container{}
+JS -> document.querySelector('.container');
+Jquery -> $('.container');

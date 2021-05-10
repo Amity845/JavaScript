@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport"
+        content="width-device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="http://use.fontawesome.com/releases/v5.8.1/css/all.css">
+        <link rel="stylesheet" href="../bootstrap/css/fontawesome.com">
+        <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="../bootstrap/css/mdb.css">
+        <link rel="stylesheet" href="../bootstrap/css/style.css">
+        <link rel="stylesheet"  href="style.css"> 
+        <title>Change event on select box</title>
+    </head>
+
+<body>
+    <nav>
+        <nav class="=navbar navbar-dark bg-dark mb-3">
+            <a href="#" class="navbar-brand">SMS App</a>
+        </nav>
+    </nav>
+
+   <!-- SMS App -->
+   <div class="container">
+       <div class="row">
+           <div class="col-md-6">
+               <div class="card">
+                   <div class="card-header bg-primary text-white">
+                        <h3>SMS app</h3>
+                   </div>
+                   <div class="card-body">
+                        <form action="">
+                            <div class="form-group">
+                                <textarea rows="4" id="text-area" class="form-control" placeholder="Enter text" maxlength="100"></textarea>
+
+                            </div>
+                        </form>
+                   </div>
+                   <div class="card-footer ">
+                        <h3>The Character remaining : <span class="font-weight-bold text-primary" id="char-count">0</span>/100</h3>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   
+ <!--Bootstrap JS files--> 
+ <script src="../bootstrap/js/jquery.js"></script>
+ <script src="../bootstrap/js/popper.js"></script>
+ <script src="../bootstrap/js/mdb.js"></script>
+ <script src="../bootstrap/js/bootstrap.js"></script>
+
+<script src="../07_JS_SMS_App/app.js"></script>
+</body>
+</html>

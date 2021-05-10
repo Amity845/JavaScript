@@ -55,8 +55,8 @@ console.log(student);
 let studentstr =JSON.stringify(student);
 console.log(studentstr);
 
-//String to Object
 
+//String to Object
 let newStudent = JSON.parse(studentstr);
 console.log(newStudent);
 
